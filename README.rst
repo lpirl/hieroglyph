@@ -2,11 +2,11 @@
  Hieroglyph
 ============
 
-.. image:: https://api.travis-ci.org/nyergler/hieroglyph.png?branch=master
-   :target: https://travis-ci.org/nyergler/hieroglyph
+.. image:: https://api.travis-ci.org/lpirl/hieroglyph.png?branch=master
+   :target: https://travis-ci.org/lpirl/hieroglyph
 
-.. image:: https://coveralls.io/repos/nyergler/hieroglyph/badge.png?branch=master
-   :target: https://coveralls.io/r/nyergler/hieroglyph?branch=master
+.. image:: https://coveralls.io/repos/lpirl/hieroglyph/badge.png?branch=master
+   :target: https://coveralls.io/r/lpirl/hieroglyph?branch=master
 
 
 **Hieroglyph** is an extension for `Sphinx`_ which builds HTML
