@@ -11,8 +11,7 @@ NEWS = open(os.path.join(here, 'NEWS.txt')).read()
 
 install_requires = [
     "setuptools",
-    "Sphinx >= 1.7, <1.8",
-    "six",
+    "Sphinx >= 2.0",
 ]
 
 
@@ -26,7 +25,6 @@ setup(name='hieroglyph',
         'License :: OSI Approved :: BSD License',
         'Topic :: Documentation',
         'Topic :: Text Processing',
-        "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 3",
       ],
       keywords='',
@@ -49,6 +47,10 @@ setup(name='hieroglyph',
               'single-level=hieroglyph.themes:SINGLE_LEVEL',
               'slides2=hieroglyph.themes:SLIDES2',
           ],
+          'sphinx.builders': [
+            'slides = hieroglyph',
+            'dirslides = hieroglyph',
+        ],
       },
       test_suite='hieroglyph.tests',
       tests_require=[
